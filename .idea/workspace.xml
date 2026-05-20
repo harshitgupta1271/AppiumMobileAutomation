@@ -52,10 +52,11 @@
     "TestNG.AppiumSetupTest.executor": "Run",
     "TestNG.AppiumSetupTest.testLogin (1).executor": "Debug",
     "TestNG.AppiumSetupTest.testLogin.executor": "Run",
+    "TestNG.LocatorTest.locatorTest.executor": "Run",
     "TestNG.PaytmTest.executor": "Run",
     "TestNG.PaytmTest.testLogin.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "practice",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/harshit/automation/src/resources",
@@ -92,7 +93,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppiumSetupTest.testLogin">
+  <component name="RunManager" selected="TestNG.LocatorTest.locatorTest">
     <configuration name="AppiumSetupTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <option name="PACKAGE_NAME" value="" />
@@ -116,8 +117,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LocatorTest.locatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LocatorTest" />
+      <option name="METHOD_NAME" value="locatorTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LocatorTest.locatorTest" />
         <item itemvalue="TestNG.AppiumSetupTest.testLogin" />
         <item itemvalue="TestNG.AppiumSetupTest" />
       </list>
