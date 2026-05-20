@@ -27,5 +27,6 @@ public class AppiumSetupTest {
         driver.quit();
         service.stop();
 
+
     }
 }
