@@ -27,6 +27,7 @@ public class LocatorTest {
         options.setApp("/Users/harshit/automation/src/resources/ApiDemos-debug.apk");
         AndroidDriver driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), (Capabilities) options);
 
+
         driver.findElement(AppiumBy.accessibilityId("Media")).click();
         service.stop();
 
