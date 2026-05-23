@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c17fcb5d-258d-494a-8af7-885839d2ccd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Gestures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Scroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Scroll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="18" />
+    <option name="cachedIndexableFilesCount" value="20" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,6 +60,8 @@
     "TestNG.LocatorTest.locatorTest.executor": "Run",
     "TestNG.PaytmTest.executor": "Run",
     "TestNG.PaytmTest.testLogin.executor": "Run",
+    "TestNG.Scroll.scrollByCoordinatesTest.executor": "Run",
+    "TestNG.Scroll.scrollTest.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
@@ -98,30 +100,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Gestures.gestureTest">
-    <configuration name="AppiumSetupTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppiumSetupTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppiumSetupTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppiumSetupTest" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Scroll.scrollByCoordinatesTest">
     <configuration name="Gestures.gestureTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <option name="PACKAGE_NAME" value="" />
@@ -157,13 +136,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scroll.scrollByCoordinatesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Scroll" />
+      <option name="METHOD_NAME" value="scrollByCoordinatesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scroll.scrollTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Scroll" />
+      <option name="METHOD_NAME" value="scrollTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Scroll.scrollByCoordinatesTest" />
+        <item itemvalue="TestNG.Scroll.scrollTest" />
         <item itemvalue="TestNG.Gestures.gestureTest" />
         <item itemvalue="TestNG.LocatorTest.locatorTest" />
         <item itemvalue="TestNG.LocatorTest" />
-        <item itemvalue="TestNG.AppiumSetupTest.testLogin" />
-        <item itemvalue="TestNG.AppiumSetupTest" />
       </list>
     </recent_temporary>
   </component>
