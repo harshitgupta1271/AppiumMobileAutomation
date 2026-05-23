@@ -30,12 +30,20 @@ public class Scroll extends BaseTest {
 
     @Test
     public void scrollTest(){
-
         scrollTestHelper("WebView");
     }
 
     @Test
     public void scrollByCoordinatesTest(){
         scrollByCoordinatesHelper();
+    }
+
+    @Test
+    public void scrollDownThenUpTest(){
+
+        scrollTestHelper("WebView");
+        driver.findElement(AppiumBy.androidUIAutomator(
+                "new UiScrollable(new UiSelector()).scrollBackward()"
+        ));
     }
 }

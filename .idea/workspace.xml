@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c17fcb5d-258d-494a-8af7-885839d2ccd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/resources/General-Store.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EcommerceAppAutomation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Scroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Scroll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "harshitgupta1271"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/harshitgupta1271/AppiumMobileAutomation.git",
+    "accountId": "32a9a75f-5c52-43ac-ac0c-56f3e1d44711"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -55,13 +70,21 @@
     "TestNG.AppiumSetupTest.executor": "Run",
     "TestNG.AppiumSetupTest.testLogin (1).executor": "Debug",
     "TestNG.AppiumSetupTest.testLogin.executor": "Run",
+    "TestNG.EcommerceAppAutomation.addToCartProduct.executor": "Run",
+    "TestNG.EcommerceAppAutomation.executor": "Run",
+    "TestNG.EcommerceAppAutomation.fillForm.executor": "Run",
+    "TestNG.EcommerceAppAutomation.fillFormAssertions.executor": "Run",
+    "TestNG.EcommerceAppAutomation.fillFormToasterError.executor": "Run",
     "TestNG.Gestures.gestureTest.executor": "Run",
     "TestNG.LocatorTest.executor": "Run",
     "TestNG.LocatorTest.locatorTest.executor": "Run",
     "TestNG.PaytmTest.executor": "Run",
     "TestNG.PaytmTest.testLogin.executor": "Run",
     "TestNG.Scroll.scrollByCoordinatesTest.executor": "Run",
+    "TestNG.Scroll.scrollDownBelowThenUpTest.executor": "Run",
+    "TestNG.Scroll.scrollDownThenUpTest.executor": "Run",
     "TestNG.Scroll.scrollTest.executor": "Run",
+    "TestNG.Scroll.scrollbackwardTest.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
@@ -100,23 +123,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Scroll.scrollByCoordinatesTest">
-    <configuration name="Gestures.gestureTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.EcommerceAppAutomation.addToCartProduct">
+    <configuration name="EcommerceAppAutomation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Gestures" />
-      <option name="METHOD_NAME" value="gestureTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LocatorTest" />
+      <option name="MAIN_CLASS_NAME" value="EcommerceAppAutomation" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -124,11 +135,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocatorTest.locatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EcommerceAppAutomation.addToCartProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LocatorTest" />
-      <option name="METHOD_NAME" value="locatorTest" />
+      <option name="MAIN_CLASS_NAME" value="EcommerceAppAutomation" />
+      <option name="METHOD_NAME" value="addToCartProduct" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +147,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scroll.scrollByCoordinatesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EcommerceAppAutomation.fillForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Scroll" />
-      <option name="METHOD_NAME" value="scrollByCoordinatesTest" />
+      <option name="MAIN_CLASS_NAME" value="EcommerceAppAutomation" />
+      <option name="METHOD_NAME" value="fillForm" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,11 +159,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scroll.scrollTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EcommerceAppAutomation.fillFormAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Scroll" />
-      <option name="METHOD_NAME" value="scrollTest" />
+      <option name="MAIN_CLASS_NAME" value="EcommerceAppAutomation" />
+      <option name="METHOD_NAME" value="fillFormAssertions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcommerceAppAutomation.fillFormToasterError" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EcommerceAppAutomation" />
+      <option name="METHOD_NAME" value="fillFormToasterError" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Scroll.scrollByCoordinatesTest" />
-        <item itemvalue="TestNG.Scroll.scrollTest" />
-        <item itemvalue="TestNG.Gestures.gestureTest" />
-        <item itemvalue="TestNG.LocatorTest.locatorTest" />
-        <item itemvalue="TestNG.LocatorTest" />
+        <item itemvalue="TestNG.EcommerceAppAutomation.addToCartProduct" />
+        <item itemvalue="TestNG.EcommerceAppAutomation" />
+        <item itemvalue="TestNG.EcommerceAppAutomation.fillFormToasterError" />
+        <item itemvalue="TestNG.EcommerceAppAutomation.fillFormAssertions" />
+        <item itemvalue="TestNG.EcommerceAppAutomation.fillForm" />
       </list>
     </recent_temporary>
   </component>
