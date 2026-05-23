@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c17fcb5d-258d-494a-8af7-885839d2ccd6" name="Changes" comment="" />
+    <list default="true" id="c17fcb5d-258d-494a-8af7-885839d2ccd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LocatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LocatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="7" />
+    <option name="cachedIndexableFilesCount" value="18" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,11 +56,12 @@
     "TestNG.AppiumSetupTest.executor": "Run",
     "TestNG.AppiumSetupTest.testLogin (1).executor": "Debug",
     "TestNG.AppiumSetupTest.testLogin.executor": "Run",
+    "TestNG.LocatorTest.executor": "Run",
     "TestNG.LocatorTest.locatorTest.executor": "Run",
     "TestNG.PaytmTest.executor": "Run",
     "TestNG.PaytmTest.testLogin.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "practice",
+    "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/harshit/automation/src/resources",
@@ -117,6 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LocatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LocatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LocatorTest.locatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <option name="PACKAGE_NAME" value="" />
@@ -132,6 +148,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LocatorTest.locatorTest" />
+        <item itemvalue="TestNG.LocatorTest" />
         <item itemvalue="TestNG.AppiumSetupTest.testLogin" />
         <item itemvalue="TestNG.AppiumSetupTest" />
       </list>
