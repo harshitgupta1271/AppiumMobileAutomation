@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c17fcb5d-258d-494a-8af7-885839d2ccd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/General-Store.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EcommerceAppAutomation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Scroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Scroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EcommerceAppAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EcommerceAppAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Gestures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Gestures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,8 @@
     "TestNG.EcommerceAppAutomation.fillForm.executor": "Run",
     "TestNG.EcommerceAppAutomation.fillFormAssertions.executor": "Run",
     "TestNG.EcommerceAppAutomation.fillFormToasterError.executor": "Run",
+    "TestNG.EcommerceAppAutomation.verifyAddProductThenTotalCorrectAmountForProductsThenSubmit.executor": "Run",
+    "TestNG.EcommerceAppAutomation.verifyCorrectAmountForProduct.executor": "Run",
     "TestNG.Gestures.gestureTest.executor": "Run",
     "TestNG.LocatorTest.executor": "Run",
     "TestNG.LocatorTest.locatorTest.executor": "Run",
@@ -123,7 +124,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EcommerceAppAutomation.addToCartProduct">
+  <component name="RunManager" selected="TestNG.EcommerceAppAutomation.verifyAddProductThenTotalCorrectAmountForProductsThenSubmit">
     <configuration name="EcommerceAppAutomation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <option name="PACKAGE_NAME" value="" />
@@ -147,30 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcommerceAppAutomation.fillForm" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EcommerceAppAutomation" />
-      <option name="METHOD_NAME" value="fillForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EcommerceAppAutomation.fillFormAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EcommerceAppAutomation" />
-      <option name="METHOD_NAME" value="fillFormAssertions" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EcommerceAppAutomation.fillFormToasterError" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
       <option name="PACKAGE_NAME" value="" />
@@ -183,13 +160,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EcommerceAppAutomation.verifyAddProductThenTotalCorrectAmountForProductsThenSubmit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EcommerceAppAutomation" />
+      <option name="METHOD_NAME" value="verifyAddProductThenTotalCorrectAmountForProductsThenSubmit" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcommerceAppAutomation.verifyCorrectAmountForProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EcommerceAppAutomation" />
+      <option name="METHOD_NAME" value="verifyCorrectAmountForProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EcommerceAppAutomation.addToCartProduct" />
+        <item itemvalue="TestNG.EcommerceAppAutomation.verifyAddProductThenTotalCorrectAmountForProductsThenSubmit" />
         <item itemvalue="TestNG.EcommerceAppAutomation" />
+        <item itemvalue="TestNG.EcommerceAppAutomation.verifyCorrectAmountForProduct" />
+        <item itemvalue="TestNG.EcommerceAppAutomation.addToCartProduct" />
         <item itemvalue="TestNG.EcommerceAppAutomation.fillFormToasterError" />
-        <item itemvalue="TestNG.EcommerceAppAutomation.fillFormAssertions" />
-        <item itemvalue="TestNG.EcommerceAppAutomation.fillForm" />
       </list>
     </recent_temporary>
   </component>
